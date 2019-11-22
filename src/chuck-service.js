@@ -6,8 +6,6 @@ export class ChuckService {
       return jsonifiedResponse;
     } catch(error) {
       console.error("Chuck doesn't like your request: " + error.message);
-
-
     }
   }
 }
